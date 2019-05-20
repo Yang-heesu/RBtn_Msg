@@ -36,7 +36,7 @@
             this.rbQuestion = new System.Windows.Forms.RadioButton();
             this.rbInformation = new System.Windows.Forms.RadioButton();
             this.rbError = new System.Windows.Forms.RadioButton();
-            this.btnshow = new System.Windows.Forms.Button();
+            this.btnShow = new System.Windows.Forms.Button();
             this.gpOption1.SuspendLayout();
             this.gpOption2.SuspendLayout();
             this.SuspendLayout();
@@ -131,22 +131,22 @@
             this.rbError.Text = "Error";
             this.rbError.UseVisualStyleBackColor = true;
             // 
-            // btnshow
+            // btnShow
             // 
-            this.btnshow.Location = new System.Drawing.Point(12, 126);
-            this.btnshow.Name = "btnshow";
-            this.btnshow.Size = new System.Drawing.Size(369, 98);
-            this.btnshow.TabIndex = 2;
-            this.btnshow.Text = "Show";
-            this.btnshow.UseVisualStyleBackColor = true;
-            this.btnshow.Click += new System.EventHandler(this.Btnshow_Click);
+            this.btnShow.Location = new System.Drawing.Point(12, 126);
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(369, 98);
+            this.btnShow.TabIndex = 2;
+            this.btnShow.Text = "Show";
+            this.btnShow.UseVisualStyleBackColor = true;
+            this.btnShow.Click += new System.EventHandler(this.BtnShow_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(393, 240);
-            this.Controls.Add(this.btnshow);
+            this.Controls.Add(this.btnShow);
             this.Controls.Add(this.gpOption2);
             this.Controls.Add(this.gpOption1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -172,7 +172,7 @@
         private System.Windows.Forms.RadioButton rbQuestion;
         private System.Windows.Forms.RadioButton rbError;
         private System.Windows.Forms.RadioButton rbInformation;
-        private System.Windows.Forms.Button btnshow;
+        private System.Windows.Forms.Button btnShow;
     }
 }
 
